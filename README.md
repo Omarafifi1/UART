@@ -1,6 +1,6 @@
 # UART
 UART, or universal asynchronous receiver-transmitter, is one of the most used device-to-device communication protocols 
-RX
+#RX
 ---------
 rx checks the bit at its middle for higher stability 
 there are three registers used: s , b , n
