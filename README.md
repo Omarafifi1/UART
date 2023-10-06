@@ -22,8 +22,9 @@ UART, or universal asynchronous receiver-transmitter, is one of the most used de
 >>Register b is an internal register used to store the data to be transmitted .
 
 >>Register n is an internal register used to count the number of data bits  transmitted.
-## for more information check the pdf file
 
- >>the tx_done_tick  signal  is set to high when the  frame is completely transmitted including the stop bit.
+>>the tx_done_tick  signal  is set to high when the  frame is completely transmitted including the stop bit.
 
 >>Register parity is an internal register used to store the data to be transmitted to check its parity .
+
+## for more information check the pdf file
