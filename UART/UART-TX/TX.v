@@ -108,7 +108,8 @@ end
 
 always@(*)
 begin
-
+tx=0;
+tx_done_tick=0;
   case(current_state)
 IDLE:begin
   tx=1;
@@ -154,7 +155,10 @@ end
 
 always@(*)
 begin
-  
+  next_s=0;
+  next_n=0;
+  next_b=0;
+  next_parity=0;
   case(current_state)
 IDLE:begin
   next_s=0;
