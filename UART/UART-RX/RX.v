@@ -45,7 +45,11 @@ end
 
 always@(*)
 begin
-  rx_done_tick=0;
+            rx_done_tick=0;
+            s_next=0;
+            n_next=0;
+            b_next=0;
+            next_state=START;  
   case(current_state)
 ///////////////////////////////////      
 ////////    IDLE_state     ////////
